@@ -7,8 +7,8 @@ En este repositorio se presenta toda la info y practicas necesarias para imparti
 ## Indice <a name="instalacion"></a>
 
 - [Introducción](#introduccion)
-    * [Instalación](#instalacion)
-    * [Best practices](#best-practices)
+- [Instalación](#instalacion)
+- [Best practices](#best-practices)
 
 ### Best practices <a name="best-practices"></a>
 
