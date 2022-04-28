@@ -1,0 +1,10 @@
+# Build stage
+FROM maven:xxxx AS build
+WORKDIR /app
+COPY myapp /app
+RUN mvn package
+
+# Run stage
+FROM tomcat:xxxx
+COPY --from=build /app/target/myapp.war /usr/local/tomcat/webapps/myapp.war
+...
